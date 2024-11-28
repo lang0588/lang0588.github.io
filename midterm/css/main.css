@@ -78,6 +78,10 @@ nav ul li {
     padding:20px 0;
 }
 
+nav ul li :not(:first-child){
+	border-left: 1px solid;
+	padding-left: 50px;
+}
 body {
 	background-color: rgb(104, 135, 131);
 }
@@ -117,7 +121,7 @@ p {
 	padding:30px ;
 	padding-top: 10px;
 	max-width: 740px;	
-	margin-left: 548px;
+	/* margin-left: 548px; fixes the format unless on a smaller screen */
 	
 }
 
