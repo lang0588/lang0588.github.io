@@ -4,32 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lang0588 - Final Project</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
+
 <body>
     <header>
-        <img src="images/logo.png" alt="logo">
-        <nav>
-            <div class="navigation wrapper">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about-section">About Us</a></li>
-                <li><a href="#services-section">Services</a></li>
-                <li><a href="#team-section">Team</a></li>
-                <li><a href="#contact-section">Contact</a></li>
-            </ul>
-            
-            <!-- this is the search bar -->
-             <!-- <input> is used for buttons -->
-                <input type="text" placeholder="Search..">
+        <div class="header-wrapper">
+            <div class="header-logo">
+                <img src="images/logo.png" alt="logo">
             </div>
-        </nav>
+            <nav>
+                <div class="navigation">
+                <ul>
+                    <li><a href="index.html" id="home">Home</a></li>
+                    <li><a href="#about-section">About Us</a></li>
+                    <li><a href="#services-section">Services</a></li>
+                    <li><a href="#team-section">Team</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                    <li><!-- this is the search bar -->
+                        <!-- <input> is used for buttons -->
+                            <input type="text" placeholder="Search"></li>
+                </ul>
+            </div>
+                    
+                </div>
+            </nav>
 
-        <div class="banner">
-            <h1>Welcome to Three Star Media</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corporis et velit at, qui quia veniam? Excepturi nulla corporis voluptate aliquam accusantium perferendis odit molestiae. Id harum sint itaque reiciendis!</p>
-            <input type="submit" value="Connect with us">
-            <img class="bg-image" alt="background" src="images/main-banner.jpg">
-        </div>
+            <div class="banner">
+                <div class="banner-info">
+                    <h1>Welcome to Three Star Media</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corporis et velit at, qui quia veniam? Excepturi nulla corporis voluptate aliquam accusantium perferendis odit molestiae. Id harum sint itaque reiciendis!</p>
+                    <input type="submit" value="Connect with us   &#9654;" >
+                </div>
+
+                <img src="/images/main-banner.jpg" class="banner-img">
+            </div>
 
     </header>
 
@@ -39,7 +49,7 @@
             <section id="about-section">
                <img class="about-image" alt="ping pong table" src="images/about-us.jpg">
 
-                <div>
+                <div class="content">
                     <h2>About Us</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut excepturi dolore dignissimos necessitatibus, qui repellat alias deleniti, nam voluptates, quia quasi asperiores laudantium assumenda fuga? Ducimus, reiciendis fuga. Dolorem, soluta!</p>
 
@@ -47,15 +57,15 @@
                 </div>
             </section>
 
-
-            <section id="services-section">
+        <div class="services-wrapper">
+            <section id="transformation-section">
                 <h2>Our Services</h2>
-                <img class="services-image" alt="computer services image" src="images/digital.jpg">
+                <img class="services-image" alt="image of computer services" src="images/digital.jpg">
 
                     <div>
                         <h3>Digital transformation</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita impedit similique corporis iusto ea nulla quis temporibus vero est nisi nobis ipsa ut, harum id soluta hic magni magnam rem.</p>
-                                <input type="submit" value="Digital Plans">
+                                <input type="submit" value="Digital Plans  	&#9654;">
                     </div>
             </section>
 
@@ -63,9 +73,9 @@
                 <img class="marketing-image" alt="image of computer" src="images/marketing.jpg">
 
                 <div>
-                    <h2>marketing</h2>
+                    <h3>Marketing</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto odio quae eveniet, ducimus nemo pariatur, sit expedita minus nisi ratione dolores magni eius iusto numquam, temporibus odit? Reprehenderit, et!</p>
-                            <input type="submit" value="Marketing Plans">
+                            <input type="submit" value="Marketing Plans   	&#9654;">
                 </div>
 
             </section>
@@ -74,9 +84,9 @@
                 <img class="video-image" alt="image of a phone" src="images/video.jpg">
 
                 <div>
-                    <h2>Video Production</h2>
+                    <h3>Video Production</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto odio quae eveniet, ducimus nemo pariatur, sit expedita minus nisi ratione dolores magni eius iusto numquam, temporibus odit? Reprehenderit, et!</p>
-                            <input type="submit" value="Video Plans">
+                            <input type="submit" value="Video Plans  	&#9654;">
                 </div>
 
             </section>
@@ -86,9 +96,9 @@
                 
 
                 <div>
-                    <h2>Web Development</h2>
+                    <h3>Web Development</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto odio quae eveniet, ducimus nemo pariatur, sit expedita minus nisi ratione dolores magni eius iusto numquam, temporibus odit? Reprehenderit, et!</p>
-                            <input type="submit" value="Web Plans">
+                            <input type="submit" value="Web Plans  	&#9654;">
                 </div>
             </section>
             
@@ -97,27 +107,30 @@
                 
 
                 <div>
-                    <h2>Print</h2>
+                    <h3>Print</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto odio quae eveniet, ducimus nemo pariatur, sit expedita minus nisi ratione dolores magni eius iusto numquam, temporibus odit? Reprehenderit, et!</p>
-                            <input type="submit" value="Print Plans">
+                            <input type="submit" value="Print Plans  	&#9654;">
                 </div>
             </section>
+        </div>
+    </div>
 
-            <section id="vision-section">
-                <img class="vision-image" alt="background image" src="images/vision.jpg">           
+            <section id="vision-section">         
 
-                <div>
-                    <h2>Our vision</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto odio quae eveniet, ducimus nemo pariatur, sit expedita minus nisi ratione dolores magni eius iusto numquam, temporibus odit? Reprehenderit, et!</p>
-                            <input type="submit" value="Learn More">
+                <div class="vision-info">
+                    <h3>Our vision</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto odio quae eveniet, ducimus nemo pariatur, sit expedita minus nisi ratione dolores magni eius iusto numquam, temporibus odit? Reprehenderit, et adipisicing elit. temporibus odit? Reprehenderit!</p>
+                            <input type="submit" value="Learn More  	&#9654;">
                 </div>
+                    <img class="vision-image" alt="background image" src="images/vision.jpg">
             </section>
+
 
             <section id="team-section">
                 <h2>Our Team</h2>
                 <img class="john-image" alt="image of John Doe" src="images/john.jpg">
 
-                <div>
+                <div class="john-content content">
                     <h3>John Doe</h3>
                         <h4>CEO and Co-owner</h4>
 
@@ -127,46 +140,49 @@
 
                 <img class="bob-image" alt="image of Bob Rite" src="images/bob.jpg">
 
-                <div>
+                <div class="bob-content content">
                     <h3>Bob Rite</h3>
                         <h4>CFO and Co-owner</h4>
 
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto odio quae eveniet, ducimus nemo pariatur, sit expedita minus nisi ratione dolores magni eius iusto numquam, temporibus odit? Reprehenderit, et!</p>
                 </div>
+            
             </section>
 
-
-
+        <div class="info-sections">
             <section id="contact-section">
                 <h2>Contact Us</h2>
                 <h3>Send us a message</h3>
 
                 <form class="contact-form">
+                        <div class="fname">
+                            <label for="fname">Full Name</label>
+                            <input type="text" name="fname" id="fname">
+                        </div>
 
-                    <div class="fname">
-                        <label for="fname">Full Name</label>
-                        <input type="text" name="fname" id="fname">
-                    </div>
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
 
-                    <div class="email">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                    </div>
+                        <div class="message">
+                            <label for="message">Message</label> <br>
+                            <textarea name="message" id="message" cols="10"></textarea>
+                        </div>
 
-                    <div class="message">
-                        <label for="message">Message</label> <br>
-                       <textarea name="message" id="message" cols="10"></textarea>
+                    <div id="send-btn">
                        <input type="submit" value="Send">
                     </div>
+
                 </form>
 
             </section>
 
 
-            <section>
-                <h2>Hours of operation</h2>
+            <section id="hours-section">
+                <h3>Hours of operation</h3>
 
-                <table>
+                <table class="styled-table">
                     <!-- thead = table header -->
                     <thead>
                         <tr>
@@ -192,20 +208,19 @@
 
 
             <section class="location-section">
-                <h2>Location</h2>
+                <h3>Location</h3>
                 
                 <div class="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.913994664923!2d-75.76088505633379!3d45.349680324302184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1732313240199!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
-
-
         </div>
+
     </main>
 
     <footer>
         <p>&copy; Copyright Three Star Media, 2020</p>
-        <p>All images are taken from Unsplash</p>
+        <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
     </footer>
 
 </body>

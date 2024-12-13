@@ -48,3 +48,530 @@ table {
 }
 
 /* _________ START OF MY CSS _________ */
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	word-spacing: 2px;
+}
+
+img{
+	width: 100%;
+}
+
+h1, h2, h3, h4{
+	font-weight: bold;
+}
+
+h2{
+	font-size: 2.5rem;
+}
+
+h3{
+	font-size: 1.8rem;
+}
+
+p{
+	line-height: 20px;
+}
+
+/* ________ HEADER SECTION ________ */
+
+
+header{
+	/* background-color: #c78c06; */
+}
+
+.header-wrapper{
+	background-color:#c78c06;
+	max-width: 1200px;
+	padding: 10px 1px 0px;
+}
+
+.header-logo{
+	width: 170px;
+	height: 170px;
+}
+
+.navigation{
+	background-color: #222;
+}
+
+.navigation ul li a{
+	max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 35px;
+	text-decoration: none;
+	color: #c78c06;
+}
+
+.navigation #home{
+	color:  #222;
+	padding:20px 90px;
+	background-color:#c78c06;
+	margin: 0px 0px 20px;
+}
+
+nav input{
+	width: 96%;
+	height: 40px;
+	margin: 15px;
+}
+/* end of navigation */
+
+
+.banner-info{
+	background-color: #0000009a;
+	padding:60px 0px 10px;
+	margin-top: 60px;
+	position:absolute;
+}
+
+h1{
+	font-size: 4.3rem;
+	color: white;
+	margin: 0px 10px;
+	padding-bottom: 30px;
+	line-height: 90px;
+}
+
+.banner p{
+	color: white;
+	margin: 0px 10px;
+}
+
+.banner input{
+	background-color:#c78c06;
+	border: none;
+	padding: 28px 28px;
+	font-size: 1rem;
+	margin: 10px;
+}
+
+
+/*  ________ ABOUT SECTION ________ */
+
+#about-section{
+	background-color: #ffe6ac;
+	padding: 10px;
+}
+
+#about-section h2, p{
+	margin-bottom: 14px;
+}
+
+/*  ________ SERVICES SECTION ________ */
+
+
+.services-wrapper{
+	margin: 10px;
+	margin-bottom: 10px;
+}
+
+.services-wrapper section{
+	background-color: #ffe6ac;
+
+}
+
+
+.services-wrapper h2{
+	background-color: white;
+	padding: 30px 0px 20px;
+}
+
+
+.services-wrapper h3{
+	margin: 30px 10px 20px;
+}
+
+.services-wrapper p{
+	margin-left: 10px;
+}
+
+.services-wrapper input{
+	background-color: #222;
+	border: none;
+	padding: 28px 28px;
+	font-size: 1rem;
+	margin: 10px;
+	color: white;
+}
+
+
+
+/* _______ VISION SECTION _______ */
+
+.vision-info{
+	position: absolute;
+	color: white;
+	margin-top: 30px;
+}
+
+.vision-image{
+	width: 100%;
+	height: 310px;
+	object-fit: cover;
+}
+
+.vision-info h3{
+	margin: 30px 10px 20px;
+}
+
+.vision-info p{
+	margin: 30px 10px 20px;
+}
+
+.vision-info input{
+	background-color: #11253d;
+	border-color: #11253d ;
+	padding: 30px;
+	font-size: 1.3rem;
+	margin-left: 10px;
+	color: white;
+}
+
+/* _______ TEAM SECTION _______ */
+
+#team-section h2{
+	background-color: white;
+	padding: 40px 10px 20px;
+}
+
+#team-section{
+	margin: 10px;
+	margin-bottom: 10px;
+}
+
+#team-section .content{
+	background-color:#ffe6ac;
+}
+
+#team-section h2{
+	background-color: white;
+	padding: 30px 0px 20px;
+}
+
+#team-section h3{
+	margin: 0px 10px 0px;
+}
+
+#team-section h4{
+	margin:10px;
+	border-bottom: 2px solid;
+	border-color: #c78c06;
+}
+
+#team-section p{
+	margin: 10px;
+	padding-bottom: 20px;
+	
+}
+
+/* _______ CONTACT SECTION _______ */
+
+
+
+#contact-section {
+	margin: 20px 10px 0px;
+}
+
+#contact-section h2{
+	margin:60px 0px 40px;
+}
+
+#contact-section h3{
+	margin: 20px 0px;
+}
+
+#contact-section .fname {
+	display: flex;
+	flex-direction: column;
+	margin-bottom:18px ;
+	width: 100%;
+}
+
+#contact-section .email {
+	display: flex;
+	flex-direction: column;
+	margin-bottom:18px ;
+	width: 100%;
+}
+
+#contact-section .message {
+	display: flex;
+	flex-direction: column;
+	margin-bottom:18px ;
+	width: 100%;
+}
+
+#send-btn input[type="submit"]{
+	background-color: #222;
+	color: #c78c06;
+	font-size: large;
+	margin-top: 10px;
+}
+
+
+/* _______ HOURS SECTION _______ */
+
+
+#hours-section{
+	margin: 20px 10px 0px;
+
+}
+
+.styled-table{
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.styled-table th{
+	background-color:#ffe6ac;
+	padding: 20px;
+	text-align: center;
+	border: 1px solid #222;
+}
+
+.styled-table td{
+	border: 1px solid #222;
+	padding: 20px;
+}
+
+.location-section {
+	margin: 20px 10px 10px;
+}
+
+.location-section .map iframe{
+	height: 400px;
+	width: 100%;
+    border:0;
+	margin-bottom: 10px;
+	margin-top: 14px;
+}
+
+
+/* _______ FOOTER SECTION _______ */
+
+
+footer{
+	background-color:#222;
+	color: #c78c06;
+	padding: 20px;
+}
+
+footer a{
+	color:#c78c06;
+}
+
+
+
+/* _______ DESKTOP VERSION _______ */
+
+
+
+@media screen and (min-width:750px) {
+/* this was working until today; error unknown */
+
+p{
+	font-size:0.8rem;
+}
+
+.header-wrapper{
+	max-width: 3000px;
+	background-color: #222;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom:30px;
+}
+
+.header-logo{
+	width: 90px;
+	height: 90px;
+	float: left;
+	margin-left: 80px;
+	margin-right: 40px;
+}
+
+.header-wrapper li{
+	display: inline-block;
+}
+
+.header-wrapper #home{
+	padding: 20px 40px;
+}
+
+.banner-info{
+	background-color: #0000009a;
+	margin: 50px 90px;
+}
+
+.banner .banner-img{
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	display: block;
+}
+
+/* _______ ABOUT VERSION _______ */
+
+#about-section img{
+	width: 450px;
+	height: 230px;
+	margin: 15px 15px 0px;
+}
+
+#about-section{
+display:flex;
+padding: 10px 90px;
+}
+
+#about-section .content{
+	line-height: 10px;
+	word-spacing: 0px;
+}
+
+#about-section h2{
+	margin:30px 0px 30px;
+}
+
+
+/* _______ SERVICES VERSION _______ */
+
+.services-wrapper{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	align-items: center;
+	gap: 10px;
+	margin: 0 80px;
+}
+
+#transformation-section {
+	grid-column: 1 / 2; 
+	grid-row: 1; 
+	width: 500px;
+  }
+  
+  #marketing-section {
+	grid-column: 2 / 3; 
+	grid-row: 1;
+	width: 500px;
+}
+  
+  #video-section {
+	grid-column: 1 / 1; 
+	grid-row: 2 / 4; 
+	width: 300px;
+  }
+  
+  #web-section {
+	grid-column: 2 / 2;
+	grid-row: 2; 
+	width: 300px;
+  }
+  
+  #print-section {
+	grid-column: 3 / 3; 
+	grid-row: 2; 
+	width: 300px;
+  }
+
+.vision-info{
+	padding: 0px 100px;
+}
+
+.services-wrapper input{
+	margin-left: 15px;
+	width: 90%;
+}
+
+/* _______ TEAM VERSION _______ */
+
+#team-section{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+	padding: 0 80px;
+}
+
+#team-section h2{
+	grid-column: 1/1;
+	grid-row: 1;
+}
+
+.john-image{
+	grid-column: 1/2;
+	grid-row: 2;
+	width: auto;
+	object-fit: cover;
+	height: 300px;
+}
+
+.bob-image{
+	grid-column: 2/2;
+	grid-row: 3;
+	width: auto;
+	object-fit: cover;
+	height: 300px;
+
+}
+
+#team-section .john-content{
+	grid-column: 2/2;
+	grid-row: 2;
+	height: 300px;
+	width: auto;
+}
+
+#team-section .bob-content{
+	grid-column: 1/1;
+	grid-row: 3;
+	height: 300px;
+	width: auto;
+}
+
+
+/* _______ CONTACT VERSION _______ */
+
+
+.info-sections{
+	display: flex;
+	flex-direction: column;
+}
+
+#contact-section {
+	width: 40%;
+	padding-left: 80px;
+}
+
+#hours-section{
+	width: 100%;
+	padding: 80px;
+	align-items: center;
+	order: 2;
+}
+
+.location-section{
+	order: 1;
+	margin-left: auto;
+	width: 50%;
+	margin-right: 80px;
+	float: right;
+}
+
+
+footer p{
+	padding-left:80px ;
+}
+
+
+
+
+	}
